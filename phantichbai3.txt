@@ -1,0 +1,83 @@
+display_menu()
+Chức năng: Hiển thị menu.
+Input: Không có.
+Output: Không có (None).
+
+
+display_students(student_list)
+Chức năng: Hiển thị danh sách học viên.
+Input:
+student_list: list
+Output:
+None
+
+validate_score(score_input)
+Chức năng: Kiểm tra điểm hợp lệ.
+Input:
+score_input: str
+Output:
+True  -> điểm hợp lệ
+False -> điểm không hợp lệ
+find_student_by_id(student_list, student_id)
+
+
+
+Chức năng: Tìm học viên theo mã.
+Input:
+student_list: list
+student_id: str
+Output:
+int  -> index của học viên
+-1   -> không tìm thấy
+add_student(student_list)
+
+
+
+Chức năng: Thêm học viên mới.
+Input:
+student_list: list
+Output:
+None
+(Hàm tác động trực tiếp lên danh sách)
+update_score(student_list)
+
+
+
+Chức năng: Cập nhật điểm học viên.
+Input:
+student_list: list
+Output:
+None
+calculate_average(math_score, english_score)
+
+
+Chức năng: Tính điểm trung bình.
+Input:
+math_score: float
+english_score: float
+Output:
+float
+get_rank(average_score)
+Chức năng: Xếp loại học lực.
+Input:
+average_score: float
+Output:
+str
+
+
+
+Chức năng: Đánh giá toàn bộ học viên.
+Input:
+student_list: list
+Output:
+None
+
+
+
+Vì sao phải tách thành nhiều hàm?
+Nếu viết một file dài hàng trăm dòng
+Khó đọc.
+Khó tìm lỗi.
+Khó bảo trì.
+Khó tái sử dụng.
+Khó kiểm thử.
